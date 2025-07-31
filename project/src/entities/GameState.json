@@ -1,0 +1,28 @@
+{
+  "name": "GameState",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "number",
+      "description": "Unique identifier for the user"
+    },
+    "score": {
+      "type": "number",
+      "description": "Current score (number of balloons popped)"
+    },
+    "totalClicks": {
+      "type": "number", 
+      "description": "Total number of clicks made"
+    },
+    "highScore": {
+      "type": "number",
+      "description": "Highest score achieved"
+    }
+  },
+  "required": [
+    "userId",
+    "score",
+    "totalClicks",
+    "highScore"
+  ]
+}
